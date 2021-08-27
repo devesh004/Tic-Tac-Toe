@@ -5,6 +5,7 @@ let currmove = "X";
 let isdraw = false;
 let isover = false;
 let move = 0;
+message.innerText = `${currmove}'s chance`;
 
 letsStart();
 function restart() {
